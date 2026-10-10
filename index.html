@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boeing - Инновации в авиации</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Фон и Облака -->
+    <div class="sky-background"></div>
+    <div class="clouds-container">
+        <div class="cloud c1"></div>
+        <div class="cloud c2"></div>
+        <div class="cloud c3"></div>
+        <div class="cloud c4"></div>
+        <div class="cloud c5"></div>
+    </div>
+    
+    <!-- Самолет (вернули эмодзи) -->
+    <div class="airplane-container" id="airplaneWrapper">✈️</div>
+
+    <header>
+        <h1 class="logo">BOEING</h1>
+        <p class="tagline">американская корпорация, один из крупнейших в мире производителей авиационной, космической и военной техники.</p>
+        <button class="cta-button" onclick="document.getElementById('history').scrollIntoView({behavior: 'smooth'})">
+            История компании
+        </button>
+    </header>
+
+    <section id="history">
+        <h2 class="section-title">История и Наследие</h2>
+        <div class="glass-card text-block">
+            <p>Компания Boeing была основана Уильямом Боингом в Сиэтле. За более чем столетнюю историю компания прошла путь от 
+                небольшого авиапредприятия, создававшего первые гидросамолёты, до глобальной аэрокосмической корпорации, ставшей 
+                лидером отрасли. Сегодня Boeing объединяет лучших инженеров и учёных со всего мира.
+                На своём пути компания пережила войны, технологические революции и серьёзные вызовы. Её наследие — это не только 
+                культовые модели самолётов, но и значительный вклад в развитие космической отрасли, а также фундаментальные изменения 
+                в самой авиационной индустрии.</p>
+        </div>
+    </section>
+
+    <section id="commercial">
+        <h2 class="section-title">Коммерческая Авиация</h2>
+        <div class="info-grid">
+            <div class="glass-card info-card">
+                <h3>Boeing 737 MAX</h3>
+                <p>Самое быстрорастущее семейство в истории компании. Обеспечивает на 14% меньший расход топлива по сравнению с предыдущими моделями.</p>
+            </div>
+            <div class="glass-card info-card">
+                <h3>Boeing 787 Dreamliner</h3>
+                <p>Первый серийный самолет, более чем на 50% состоящий из композитных материалов. Революция в комфорте и эффективности.</p>
+            </div>
+            <div class="glass-card info-card">
+                <h3>Boeing 777X</h3>
+                <p>Флагман с самыми большими и эффективными складными крыльями в гражданской авиации. Дальность полета до 16 000 км.</p>
+            </div>
+            <div class="glass-card info-card">
+                <h3>Boeing 747-8</h3>
+                <p>Легендарный "Джамбо Джет". Самый длинный пассажирский самолет в мире, продолжающий служить символом престижа и мощности.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="defense">
+        <h2 class="section-title">Оборона и Космос</h2>
+        <div class="glass-card text-block">
+            <p>Boeing является одним из крупнейших подрядчиков Министерства обороны США. Компания разрабатывает истребители F-15, вертолеты Apache и системы спутниковой связи.</p>
+            <br>
+            <p>В космическом сегменте Boeing создает ракету-носитель SLS для миссий NASA на Луну и Марс, а также работает над кораблем Starliner.</p>
+        </div>
+    </section>
+
+    <section id="sustainability">
+        <h2 class="section-title">Устойчивое Развитие</h2>
+        <div class="stats-modern">
+            <div class="glass-card stat-box">
+                <span class="stat-val">2050</span>
+                <span class="stat-desc">Цель: Нулевые выбросы CO2
+                    Стратегия полной углеродной нейтральности к 2050 году. Внедрение «зеленых» технологий на всех этапах 
+                    производства и эксплуатации для минимизации экологического следа.</span>
+            </div>
+            <div class="glass-card stat-box">
+                <span class="stat-val">SAF</span>
+                <span class="stat-desc">100% совместимость с биотопливом
+                    Полная адаптация техники под устойчивое авиационное топливо (SAF). Использование SAF позволяет 
+                    сократить углеродный след рейсов до 80% без потери эффективности.</span>
+            </div>
+            <div class="glass-card stat-box">
+                <span class="stat-val">Eco</span>
+                <span class="stat-desc">Тихие и экологичные двигатели
+                    Силовые установки нового поколения с повышенным КПД. Снижение уровня шума и расхода топлива 
+                    соответствует самым строгим мировым экостандартам.</span>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 The Boeing Company. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
